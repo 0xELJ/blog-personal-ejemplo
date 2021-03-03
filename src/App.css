@@ -10,3 +10,16 @@
   display: inline-block;
   margin: 8px;
 }
+
+.container {
+  width: 100vw;
+  height: 300px;
+  margin: 100px 30px;
+}
+
+.main-img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  padding-right: 30px;
+}
