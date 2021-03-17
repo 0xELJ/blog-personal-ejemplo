@@ -6,13 +6,13 @@ export default class MainSection extends Component {
 
     return (
       <div className="container">
-        <div style={{ width: "50vw", display: "inline-block" }}>
+        <div style={{ width: "50%", display: "inline-block" }}>
           <h1>Encabezado</h1>
           <h3>Subtitulo</h3>
           <button>Contacto</button>
         </div>
 
-        <div style={{ width: "50vw", display: "inline-block" }}>
+        <div style={{ width: "50%", display: "inline-block" }}>
           <img src={url} alt="Perfil" className="main-img" />
         </div>
       </div>
