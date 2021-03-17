@@ -12,8 +12,8 @@
 }
 
 .container {
-  width: 100vw;
-  height: 300px;
+  width: calc(100vw - 60px);
+  height: auto;
   margin: 100px 30px;
 }
 
@@ -21,5 +21,17 @@
   display: block;
   width: 50%;
   margin-left: auto;
-  padding-right: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.post {
+  width: 50%;
+  display: inline-block;
 }
