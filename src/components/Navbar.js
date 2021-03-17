@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { url, firstLink, imgStyles } from "../styles";
 import getLink from "../styles";
-
+import Logo from "./Logo";
 export default class Navbar extends Component {
-  getSpanStyles() {
-    return { fontWeight: "bold", fontSize: "32px" };
-  }
+  // getSpanStyles() {
+  //   return { fontWeight: "bold", fontSize: "32px" };
+  // }
 
   render() {
     return (  
@@ -16,15 +16,17 @@ export default class Navbar extends Component {
           style="width: 40px;"
         > */}
         {/* JSX <img /> */}
-        <img 
+        {/* <img 
           src={url} 
           alt="Logo" 
           // style="width: 40px;"
           style={imgStyles}
-        />
+        /> */}
 
         {/* <span style="font-weight: bold; font-size: 32px;">Blog</span> */}
-        <span style={this.getSpanStyles()}>{5 > 8 ? "Blog" : "Web"}</span>
+        {/* <span style={this.getSpanStyles()}>{5 > 8 ? "Blog" : "Web"}</span> */}
+
+        <Logo />
 
         {/* <nav class="navbar"> */}
         <nav className="navbar">
