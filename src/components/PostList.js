@@ -9,7 +9,8 @@ export default class PostList extends Component {
 
   render() {
     return (
-      <div className="post-list">
+      <div className="container">
+        <h2 className="text-center">Publicaciones</h2>
         <Post 
           title="Encabezado 1" 
           content="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est."
