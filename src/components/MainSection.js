@@ -1,9 +1,8 @@
 import React, { Component } from "react";
+import ImgMain from "../img-main.jpg";
 
 export default class MainSection extends Component {
   render() {
-    const url = "https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80";
-
     return (
       <div className="container">
         <div style={{ width: "50%", display: "inline-block" }}>
@@ -13,7 +12,7 @@ export default class MainSection extends Component {
         </div>
 
         <div style={{ width: "50%", display: "inline-block" }}>
-          <img src={url} alt="Perfil" className="main-img" />
+          <img src={ImgMain} alt="Perfil" className="main-img" />
         </div>
       </div>
     );
